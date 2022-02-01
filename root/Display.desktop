@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Display
+Exec=Display %F
+Type=Application
+Comment=Visualization and Segmentation of Surfaces and Volumes
+Categories=Science;Biology;MedicalSoftware;Graphics;3DGraphics;
+Icon=mni
