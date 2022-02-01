@@ -8,7 +8,7 @@ from the [minc-toolkit-v2](https://bic-mni.github.io/#containers) container imag
 ## Usage
 
 ```shell
-wget ...
+wget https://github.com/FNNDSC/Display.AppImage/releases/download/1.9.18.build1/Display.AppImage
 chmod +x Display.AppImage
 ./Display.AppImage brain.mnc surface_81920.obj
 ```
