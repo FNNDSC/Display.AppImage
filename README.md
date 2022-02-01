@@ -26,7 +26,7 @@ wget https://github.com/aces/CIVET/raw/master/models/icbm/icbm_avg_white_sym_mc_
 wget https://github.com/aces/CIVET/raw/master/models/icbm/icbm_avg_white_sym_mc_right.obj
 
 # run Display
-./Display.AppImage icbm_avg_152_t1_tal_lin.mnc icbm_avg_white_sym_mc_left.obj icbm_avg_white_sym_mc_right.obj
+./Display.AppImage icbm_avg_152_t1_tal_lin.mnc icbm_avg_white_sym_mc_{left,right}.obj
 ```
 
 ## Build
