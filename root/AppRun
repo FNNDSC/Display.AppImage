@@ -1,17 +1,9 @@
 #!/bin/bash -e
 
-source_dir=$(dirname "$(readlink -f "$0")")
-
 # minc-toolkit configuration parameters for 1.9.16-20180117
-export MINC_TOOLKIT="$source_dir"
-export MINC_TOOLKIT_VERSION="1.9.16-20180117"
-export PATH=${MINC_TOOLKIT}/bin:${MINC_TOOLKIT}/pipeline:${PATH}
-export PERL5LIB=${MINC_TOOLKIT}/perl:${MINC_TOOLKIT}/pipeline:${PERL5LIB}
-export LD_LIBRARY_PATH=${MINC_TOOLKIT}/lib:${MINC_TOOLKIT}/lib/InsightToolkit:${LD_LIBRARY_PATH}
-export MNI_DATAPATH=${MINC_TOOLKIT}/../share
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$APPDIR/lib"
 export MINC_FORCE_V2=1
 export MINC_COMPRESS=4
 export VOLUME_CACHE_THRESHOLD=-1
-export MANPATH=${MINC_TOOLKIT}/man:${MANPATH}
 
-exec Display "$@"
+exec "$APPDIR/bin/Display" "$@"
