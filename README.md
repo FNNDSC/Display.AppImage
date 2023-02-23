@@ -9,7 +9,7 @@ from the [minc-toolkit-v2](https://bic-mni.github.io/#containers) container imag
 
 ```shell
 # download
-wget https://github.com/FNNDSC/Display.AppImage/releases/download/1.9.18.build1/Display.AppImage
+wget https://github.com/FNNDSC/Display.AppImage/releases/download/1.9.18.build2/Display.AppImage
 chmod +x Display.AppImage
 
 # print usage
